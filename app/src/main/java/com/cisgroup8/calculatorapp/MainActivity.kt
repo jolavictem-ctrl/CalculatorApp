@@ -64,13 +64,13 @@ fun CalculatorScreen(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
     ) {
-        // Display at the top
+
         Display(expression, result)
 
-        // Spacer pushes everything below to the bottom
+
         Spacer(modifier = Modifier.weight(1f))
 
-        // Buttons at the bottom
+
         buttonRows.forEach { row ->
             Row(modifier = Modifier.fillMaxWidth()) {
                 row.forEach { buttonText ->
@@ -126,7 +126,7 @@ fun solveExpression(expression: String): String {
     val modifiedExpression = expression
         .replace("×", "*")
         .replace("÷", "/")
-        .replace("%", "/100") // handles percentage directly
+        .replace("%", "/100")
 
     val result = Expression(modifiedExpression).calculate()
 

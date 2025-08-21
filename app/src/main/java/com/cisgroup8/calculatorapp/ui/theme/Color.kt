@@ -3,14 +3,13 @@ package com.cisgroup8.calculatorapp.ui.theme
 import androidx.compose.ui.graphics.Color
 
 // Backgrounds
-val BackgroundDark = Color(0xFF121212)   // Dark mode background
-val BackgroundLight = Color(0xFFFFFFFF)  // Light mode background
+val BackgroundDark = Color(0xFF000000)   // Pure black background like iPhone
+val BackgroundLight = Color(0xFFFFFFFF)
 
 // Buttons
-val NumberButton = Color(0xFF2D2D2D)      // Dark gray for numbers
-val OperatorButton = Color(0xFFFF9800)    // Orange for operators (+, -, ×, ÷)
-val EqualButton = Color(0xFF4CAF50)       // Green for "="
-val ClearButton = Color(0xFFE53935)       // Red for "C" or "AC"
+val NumberButton = Color(0xFF505050)      // Dark gray for numbers (iPhone style)
+val FunctionButton = Color(0xFFA5A5A5)    // Light gray for functions (AC, ±, %)
+val OperatorButton = Color(0xFFFF9500)    // Bright orange for operators (+, -, ×, ÷, =)
 
 // Text Colors
 val TextWhite = Color(0xFFFFFFFF)
