@@ -8,8 +8,6 @@ import androidx.compose.runtime.Composable
 
 private val DarkColorScheme = darkColorScheme(
     primary = OperatorButton,
-    //secondary = EqualButton,
-    //tertiary = ClearButton,
     background = BackgroundDark,
     surface = BackgroundDark,
     onPrimary = TextWhite,
@@ -21,8 +19,6 @@ private val DarkColorScheme = darkColorScheme(
 
 private val LightColorScheme = lightColorScheme(
     primary = OperatorButton,
-    //secondary = EqualButton,
-    //tertiary = ClearButton,
     background = BackgroundLight,
     surface = BackgroundLight,
     onPrimary = TextBlack,
